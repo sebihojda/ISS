@@ -348,3 +348,222 @@
 05 Jun 2024 14:15:54,120 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
 05 Jun 2024 14:15:54,120 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7052b997)
 05 Jun 2024 14:15:54,120 TRACE src.bts.repository.BugDBRepository 57 findAll - Exit with([Bug{name='first_bug', description='a very nasty bug...', severity=100, condition='unresolved', id=1}, Bug{name='test', description='test', severity=1, condition='resolved', id=2}, Bug{name='test2', description='test2', severity=2, condition='resolved', id=5}])
+05 Jun 2024 18:57:43,227 INFO  src.bts.repository.EmployeeDBRepository 19 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db} 
+05 Jun 2024 18:57:43,244 INFO  src.bts.repository.TesterDBRepository 22 <init> - Initializing TesterDBRepository with properties: {jdbc.url=jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db} 
+05 Jun 2024 18:57:43,245 INFO  src.bts.repository.ProgrammerDBRepository 21 <init> - Initializing ProgrammerDBRepository with properties: {jdbc.url=jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db} 
+05 Jun 2024 18:57:43,246 INFO  src.bts.repository.BugDBRepository 23 <init> - Initializing BugDBRepository with properties: {jdbc.url=jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db} 
+05 Jun 2024 18:57:52,916 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 18:57:52,917 TRACE src.bts.repository.config.JdbcUtils 23 getNewConnection - Enter
+05 Jun 2024 18:57:52,917 INFO  src.bts.repository.config.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db
+05 Jun 2024 18:57:52,917 INFO  src.bts.repository.config.JdbcUtils 29 getNewConnection - user: null
+05 Jun 2024 18:57:52,917 INFO  src.bts.repository.config.JdbcUtils 30 getNewConnection - pass: null
+05 Jun 2024 18:57:53,043 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c9fa1e)
+05 Jun 2024 18:57:53,047 TRACE src.bts.repository.EmployeeDBRepository 35 findOneByUsernameAndPassword - Exit with(Employee{username='test', password='test', id=2})
+05 Jun 2024 18:57:53,047 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 18:57:53,048 TRACE src.bts.repository.config.JdbcUtils 23 getNewConnection - Enter
+05 Jun 2024 18:57:53,048 INFO  src.bts.repository.config.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db
+05 Jun 2024 18:57:53,048 INFO  src.bts.repository.config.JdbcUtils 29 getNewConnection - user: null
+05 Jun 2024 18:57:53,048 INFO  src.bts.repository.config.JdbcUtils 30 getNewConnection - pass: null
+05 Jun 2024 18:57:53,049 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3acbfdd2)
+05 Jun 2024 18:57:53,050 TRACE src.bts.repository.TesterDBRepository 48 findOne - Exit with(Tester{numberOfRecordedBugs=3, id=2})
+05 Jun 2024 18:57:53,050 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 18:57:53,050 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3acbfdd2)
+05 Jun 2024 18:57:53,050 TRACE src.bts.repository.TesterDBRepository 48 findOne - Exit with(Tester{numberOfRecordedBugs=3, id=2})
+05 Jun 2024 18:57:53,050 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 18:57:53,051 TRACE src.bts.repository.config.JdbcUtils 23 getNewConnection - Enter
+05 Jun 2024 18:57:53,051 INFO  src.bts.repository.config.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db
+05 Jun 2024 18:57:53,051 INFO  src.bts.repository.config.JdbcUtils 29 getNewConnection - user: null
+05 Jun 2024 18:57:53,051 INFO  src.bts.repository.config.JdbcUtils 30 getNewConnection - pass: null
+05 Jun 2024 18:57:53,052 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ff3b7f1)
+05 Jun 2024 18:57:53,053 TRACE src.bts.repository.ProgrammerDBRepository 47 findOne - Exit
+05 Jun 2024 18:57:53,088 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 18:57:53,089 TRACE src.bts.repository.config.JdbcUtils 23 getNewConnection - Enter
+05 Jun 2024 18:57:53,089 INFO  src.bts.repository.config.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db
+05 Jun 2024 18:57:53,089 INFO  src.bts.repository.config.JdbcUtils 29 getNewConnection - user: null
+05 Jun 2024 18:57:53,089 INFO  src.bts.repository.config.JdbcUtils 30 getNewConnection - pass: null
+05 Jun 2024 18:57:53,090 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57b13a6)
+05 Jun 2024 18:57:53,094 TRACE src.bts.repository.BugDBRepository 57 findAll - Exit with([Bug{name='first_bug', description='a very nasty bug...', severity=100, condition='unresolved', id=1}, Bug{name='test', description='test', severity=1, condition='resolved', id=2}, Bug{name='test2', description='test2', severity=2, condition='resolved', id=5}])
+05 Jun 2024 19:00:21,785 INFO  src.bts.repository.EmployeeDBRepository 19 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db} 
+05 Jun 2024 19:00:21,801 INFO  src.bts.repository.TesterDBRepository 22 <init> - Initializing TesterDBRepository with properties: {jdbc.url=jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db} 
+05 Jun 2024 19:00:21,801 INFO  src.bts.repository.ProgrammerDBRepository 21 <init> - Initializing ProgrammerDBRepository with properties: {jdbc.url=jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db} 
+05 Jun 2024 19:00:21,802 INFO  src.bts.repository.BugDBRepository 23 <init> - Initializing BugDBRepository with properties: {jdbc.url=jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db} 
+05 Jun 2024 19:00:28,986 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:00:28,986 TRACE src.bts.repository.config.JdbcUtils 23 getNewConnection - Enter
+05 Jun 2024 19:00:28,987 INFO  src.bts.repository.config.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db
+05 Jun 2024 19:00:28,987 INFO  src.bts.repository.config.JdbcUtils 29 getNewConnection - user: null
+05 Jun 2024 19:00:28,987 INFO  src.bts.repository.config.JdbcUtils 30 getNewConnection - pass: null
+05 Jun 2024 19:00:29,109 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@62022f53)
+05 Jun 2024 19:00:29,113 TRACE src.bts.repository.EmployeeDBRepository 35 findOneByUsernameAndPassword - Exit with(Employee{username='test', password='test', id=2})
+05 Jun 2024 19:00:29,113 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:00:29,113 TRACE src.bts.repository.config.JdbcUtils 23 getNewConnection - Enter
+05 Jun 2024 19:00:29,113 INFO  src.bts.repository.config.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db
+05 Jun 2024 19:00:29,114 INFO  src.bts.repository.config.JdbcUtils 29 getNewConnection - user: null
+05 Jun 2024 19:00:29,114 INFO  src.bts.repository.config.JdbcUtils 30 getNewConnection - pass: null
+05 Jun 2024 19:00:29,114 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5bdfdac1)
+05 Jun 2024 19:00:29,116 TRACE src.bts.repository.TesterDBRepository 48 findOne - Exit with(Tester{numberOfRecordedBugs=3, id=2})
+05 Jun 2024 19:00:29,116 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:00:29,116 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5bdfdac1)
+05 Jun 2024 19:00:29,116 TRACE src.bts.repository.TesterDBRepository 48 findOne - Exit with(Tester{numberOfRecordedBugs=3, id=2})
+05 Jun 2024 19:00:29,116 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:00:29,116 TRACE src.bts.repository.config.JdbcUtils 23 getNewConnection - Enter
+05 Jun 2024 19:00:29,117 INFO  src.bts.repository.config.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db
+05 Jun 2024 19:00:29,117 INFO  src.bts.repository.config.JdbcUtils 29 getNewConnection - user: null
+05 Jun 2024 19:00:29,117 INFO  src.bts.repository.config.JdbcUtils 30 getNewConnection - pass: null
+05 Jun 2024 19:00:29,117 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1bbe3960)
+05 Jun 2024 19:00:29,118 TRACE src.bts.repository.ProgrammerDBRepository 47 findOne - Exit
+05 Jun 2024 19:00:29,156 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:00:29,156 TRACE src.bts.repository.config.JdbcUtils 23 getNewConnection - Enter
+05 Jun 2024 19:00:29,157 INFO  src.bts.repository.config.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db
+05 Jun 2024 19:00:29,157 INFO  src.bts.repository.config.JdbcUtils 29 getNewConnection - user: null
+05 Jun 2024 19:00:29,157 INFO  src.bts.repository.config.JdbcUtils 30 getNewConnection - pass: null
+05 Jun 2024 19:00:29,158 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c83567e)
+05 Jun 2024 19:00:29,162 TRACE src.bts.repository.BugDBRepository 57 findAll - Exit with([Bug{name='first_bug', description='a very nasty bug...', severity=100, condition='unresolved', id=1}, Bug{name='test', description='test', severity=1, condition='resolved', id=2}, Bug{name='test2', description='test2', severity=2, condition='resolved', id=5}])
+05 Jun 2024 19:00:57,464 TRACE src.bts.repository.BugDBRepository 63 save - Enter saving bug Bug{name='test', description='test', severity=-1, condition='test', id=null}
+05 Jun 2024 19:00:57,464 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:00:57,464 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c83567e)
+05 Jun 2024 19:00:57,475 TRACE src.bts.repository.BugDBRepository 71 save - Saved 1 instances
+05 Jun 2024 19:00:57,475 TRACE src.bts.repository.BugDBRepository 76 save - Exit
+05 Jun 2024 19:00:57,476 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:00:57,476 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c83567e)
+05 Jun 2024 19:00:57,476 TRACE src.bts.repository.BugDBRepository 57 findAll - Exit with([Bug{name='first_bug', description='a very nasty bug...', severity=100, condition='unresolved', id=1}, Bug{name='test', description='test', severity=1, condition='resolved', id=2}, Bug{name='test2', description='test2', severity=2, condition='resolved', id=5}, Bug{name='test', description='test', severity=-1, condition='test', id=8}])
+05 Jun 2024 19:01:01,018 TRACE src.bts.repository.BugDBRepository 82 delete - Enter deleting bug with id 8
+05 Jun 2024 19:01:01,018 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:01:01,018 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c83567e)
+05 Jun 2024 19:01:01,026 TRACE src.bts.repository.BugDBRepository 91 delete - Deleted 1 instances
+05 Jun 2024 19:01:01,027 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:01:01,027 TRACE src.bts.repository.config.JdbcUtils 23 getNewConnection - Enter
+05 Jun 2024 19:01:01,027 INFO  src.bts.repository.config.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db
+05 Jun 2024 19:01:01,027 INFO  src.bts.repository.config.JdbcUtils 29 getNewConnection - user: null
+05 Jun 2024 19:01:01,027 INFO  src.bts.repository.config.JdbcUtils 30 getNewConnection - pass: null
+05 Jun 2024 19:01:01,029 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b3b00c8)
+05 Jun 2024 19:01:01,029 TRACE src.bts.repository.BugDBRepository 57 findAll - Exit with([Bug{name='first_bug', description='a very nasty bug...', severity=100, condition='unresolved', id=1}, Bug{name='test', description='test', severity=1, condition='resolved', id=2}, Bug{name='test2', description='test2', severity=2, condition='resolved', id=5}])
+05 Jun 2024 19:01:46,940 INFO  src.bts.repository.EmployeeDBRepository 19 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db} 
+05 Jun 2024 19:01:46,957 INFO  src.bts.repository.TesterDBRepository 22 <init> - Initializing TesterDBRepository with properties: {jdbc.url=jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db} 
+05 Jun 2024 19:01:46,957 INFO  src.bts.repository.ProgrammerDBRepository 21 <init> - Initializing ProgrammerDBRepository with properties: {jdbc.url=jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db} 
+05 Jun 2024 19:01:46,958 INFO  src.bts.repository.BugDBRepository 23 <init> - Initializing BugDBRepository with properties: {jdbc.url=jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db} 
+05 Jun 2024 19:01:53,192 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:01:53,192 TRACE src.bts.repository.config.JdbcUtils 23 getNewConnection - Enter
+05 Jun 2024 19:01:53,193 INFO  src.bts.repository.config.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db
+05 Jun 2024 19:01:53,193 INFO  src.bts.repository.config.JdbcUtils 29 getNewConnection - user: null
+05 Jun 2024 19:01:53,193 INFO  src.bts.repository.config.JdbcUtils 30 getNewConnection - pass: null
+05 Jun 2024 19:01:53,325 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@62022f53)
+05 Jun 2024 19:01:53,330 TRACE src.bts.repository.EmployeeDBRepository 35 findOneByUsernameAndPassword - Exit with(Employee{username='test', password='test', id=2})
+05 Jun 2024 19:01:53,331 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:01:53,331 TRACE src.bts.repository.config.JdbcUtils 23 getNewConnection - Enter
+05 Jun 2024 19:01:53,331 INFO  src.bts.repository.config.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db
+05 Jun 2024 19:01:53,331 INFO  src.bts.repository.config.JdbcUtils 29 getNewConnection - user: null
+05 Jun 2024 19:01:53,331 INFO  src.bts.repository.config.JdbcUtils 30 getNewConnection - pass: null
+05 Jun 2024 19:01:53,332 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5bdfdac1)
+05 Jun 2024 19:01:53,333 TRACE src.bts.repository.TesterDBRepository 48 findOne - Exit with(Tester{numberOfRecordedBugs=3, id=2})
+05 Jun 2024 19:01:53,333 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:01:53,333 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5bdfdac1)
+05 Jun 2024 19:01:53,333 TRACE src.bts.repository.TesterDBRepository 48 findOne - Exit with(Tester{numberOfRecordedBugs=3, id=2})
+05 Jun 2024 19:01:53,334 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:01:53,334 TRACE src.bts.repository.config.JdbcUtils 23 getNewConnection - Enter
+05 Jun 2024 19:01:53,334 INFO  src.bts.repository.config.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db
+05 Jun 2024 19:01:53,334 INFO  src.bts.repository.config.JdbcUtils 29 getNewConnection - user: null
+05 Jun 2024 19:01:53,334 INFO  src.bts.repository.config.JdbcUtils 30 getNewConnection - pass: null
+05 Jun 2024 19:01:53,335 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1bbe3960)
+05 Jun 2024 19:01:53,336 TRACE src.bts.repository.ProgrammerDBRepository 47 findOne - Exit
+05 Jun 2024 19:01:53,375 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:01:53,375 TRACE src.bts.repository.config.JdbcUtils 23 getNewConnection - Enter
+05 Jun 2024 19:01:53,376 INFO  src.bts.repository.config.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db
+05 Jun 2024 19:01:53,376 INFO  src.bts.repository.config.JdbcUtils 29 getNewConnection - user: null
+05 Jun 2024 19:01:53,376 INFO  src.bts.repository.config.JdbcUtils 30 getNewConnection - pass: null
+05 Jun 2024 19:01:53,377 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c83567e)
+05 Jun 2024 19:01:53,381 TRACE src.bts.repository.BugDBRepository 57 findAll - Exit with([Bug{name='first_bug', description='a very nasty bug...', severity=100, condition='unresolved', id=1}, Bug{name='test', description='test', severity=1, condition='resolved', id=2}, Bug{name='test2', description='test2', severity=2, condition='resolved', id=5}])
+05 Jun 2024 19:02:16,698 TRACE src.bts.repository.BugDBRepository 63 save - Enter saving bug Bug{name='test', description='test', severity=100, condition='test', id=null}
+05 Jun 2024 19:02:16,699 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:02:16,699 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c83567e)
+05 Jun 2024 19:02:16,710 TRACE src.bts.repository.BugDBRepository 71 save - Saved 1 instances
+05 Jun 2024 19:02:16,710 TRACE src.bts.repository.BugDBRepository 76 save - Exit
+05 Jun 2024 19:02:16,711 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:02:16,711 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c83567e)
+05 Jun 2024 19:02:16,711 TRACE src.bts.repository.BugDBRepository 57 findAll - Exit with([Bug{name='first_bug', description='a very nasty bug...', severity=100, condition='unresolved', id=1}, Bug{name='test', description='test', severity=1, condition='resolved', id=2}, Bug{name='test2', description='test2', severity=2, condition='resolved', id=5}, Bug{name='test', description='test', severity=100, condition='test', id=9}])
+05 Jun 2024 19:10:35,577 INFO  src.bts.repository.EmployeeDBRepository 19 <init> - Initializing EmployeeDBRepository with properties: {jdbc.url=jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db} 
+05 Jun 2024 19:10:35,593 INFO  src.bts.repository.TesterDBRepository 22 <init> - Initializing TesterDBRepository with properties: {jdbc.url=jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db} 
+05 Jun 2024 19:10:35,594 INFO  src.bts.repository.ProgrammerDBRepository 21 <init> - Initializing ProgrammerDBRepository with properties: {jdbc.url=jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db} 
+05 Jun 2024 19:10:35,595 INFO  src.bts.repository.BugDBRepository 23 <init> - Initializing BugDBRepository with properties: {jdbc.url=jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db} 
+05 Jun 2024 19:10:41,098 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:10:41,099 TRACE src.bts.repository.config.JdbcUtils 23 getNewConnection - Enter
+05 Jun 2024 19:10:41,099 INFO  src.bts.repository.config.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db
+05 Jun 2024 19:10:41,099 INFO  src.bts.repository.config.JdbcUtils 29 getNewConnection - user: null
+05 Jun 2024 19:10:41,100 INFO  src.bts.repository.config.JdbcUtils 30 getNewConnection - pass: null
+05 Jun 2024 19:10:41,220 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@62022f53)
+05 Jun 2024 19:10:41,225 TRACE src.bts.repository.EmployeeDBRepository 35 findOneByUsernameAndPassword - Exit with(Employee{username='test', password='test', id=2})
+05 Jun 2024 19:10:41,225 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:10:41,225 TRACE src.bts.repository.config.JdbcUtils 23 getNewConnection - Enter
+05 Jun 2024 19:10:41,225 INFO  src.bts.repository.config.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db
+05 Jun 2024 19:10:41,225 INFO  src.bts.repository.config.JdbcUtils 29 getNewConnection - user: null
+05 Jun 2024 19:10:41,226 INFO  src.bts.repository.config.JdbcUtils 30 getNewConnection - pass: null
+05 Jun 2024 19:10:41,226 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5bdfdac1)
+05 Jun 2024 19:10:41,227 TRACE src.bts.repository.TesterDBRepository 48 findOne - Exit with(Tester{numberOfRecordedBugs=3, id=2})
+05 Jun 2024 19:10:41,228 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:10:41,228 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5bdfdac1)
+05 Jun 2024 19:10:41,228 TRACE src.bts.repository.TesterDBRepository 48 findOne - Exit with(Tester{numberOfRecordedBugs=3, id=2})
+05 Jun 2024 19:10:41,228 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:10:41,228 TRACE src.bts.repository.config.JdbcUtils 23 getNewConnection - Enter
+05 Jun 2024 19:10:41,228 INFO  src.bts.repository.config.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db
+05 Jun 2024 19:10:41,229 INFO  src.bts.repository.config.JdbcUtils 29 getNewConnection - user: null
+05 Jun 2024 19:10:41,229 INFO  src.bts.repository.config.JdbcUtils 30 getNewConnection - pass: null
+05 Jun 2024 19:10:41,229 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1bbe3960)
+05 Jun 2024 19:10:41,230 TRACE src.bts.repository.ProgrammerDBRepository 47 findOne - Exit
+05 Jun 2024 19:10:41,271 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:10:41,271 TRACE src.bts.repository.config.JdbcUtils 23 getNewConnection - Enter
+05 Jun 2024 19:10:41,271 INFO  src.bts.repository.config.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db
+05 Jun 2024 19:10:41,272 INFO  src.bts.repository.config.JdbcUtils 29 getNewConnection - user: null
+05 Jun 2024 19:10:41,272 INFO  src.bts.repository.config.JdbcUtils 30 getNewConnection - pass: null
+05 Jun 2024 19:10:41,273 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c83567e)
+05 Jun 2024 19:10:41,278 TRACE src.bts.repository.BugDBRepository 57 findAll - Exit with([Bug{name='first_bug', description='a very nasty bug...', severity=100, condition='unresolved', id=1}, Bug{name='test', description='test', severity=1, condition='resolved', id=2}, Bug{name='test2', description='test2', severity=2, condition='resolved', id=5}, Bug{name='test', description='test', severity=100, condition='test', id=9}])
+05 Jun 2024 19:10:52,808 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:10:52,808 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@62022f53)
+05 Jun 2024 19:10:59,114 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:10:59,114 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@62022f53)
+05 Jun 2024 19:10:59,115 TRACE src.bts.repository.EmployeeDBRepository 35 findOneByUsernameAndPassword - Exit with(Employee{username='sebihojda', password='kn0iqqbf', id=1})
+05 Jun 2024 19:10:59,115 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:10:59,115 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5bdfdac1)
+05 Jun 2024 19:10:59,116 TRACE src.bts.repository.TesterDBRepository 48 findOne - Exit
+05 Jun 2024 19:10:59,116 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:10:59,116 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1bbe3960)
+05 Jun 2024 19:10:59,117 TRACE src.bts.repository.ProgrammerDBRepository 47 findOne - Exit with(Programmer{numberOfFixedBugs=2, id=1})
+05 Jun 2024 19:10:59,117 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:10:59,117 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1bbe3960)
+05 Jun 2024 19:10:59,117 TRACE src.bts.repository.ProgrammerDBRepository 47 findOne - Exit with(Programmer{numberOfFixedBugs=2, id=1})
+05 Jun 2024 19:10:59,128 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:10:59,129 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c83567e)
+05 Jun 2024 19:10:59,129 TRACE src.bts.repository.BugDBRepository 57 findAll - Exit with([Bug{name='first_bug', description='a very nasty bug...', severity=100, condition='unresolved', id=1}, Bug{name='test', description='test', severity=1, condition='resolved', id=2}, Bug{name='test2', description='test2', severity=2, condition='resolved', id=5}, Bug{name='test', description='test', severity=100, condition='test', id=9}])
+05 Jun 2024 19:11:16,692 TRACE src.bts.repository.BugDBRepository 63 save - Enter saving bug Bug{name='test2131', description='test', severity=7, condition='test', id=null}
+05 Jun 2024 19:11:16,693 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:11:16,693 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c83567e)
+05 Jun 2024 19:11:16,703 TRACE src.bts.repository.BugDBRepository 71 save - Saved 1 instances
+05 Jun 2024 19:11:16,703 TRACE src.bts.repository.BugDBRepository 76 save - Exit
+05 Jun 2024 19:11:16,704 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:11:16,704 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c83567e)
+05 Jun 2024 19:11:16,704 TRACE src.bts.repository.BugDBRepository 57 findAll - Exit with([Bug{name='first_bug', description='a very nasty bug...', severity=100, condition='unresolved', id=1}, Bug{name='test', description='test', severity=1, condition='resolved', id=2}, Bug{name='test2', description='test2', severity=2, condition='resolved', id=5}, Bug{name='test', description='test', severity=100, condition='test', id=9}, Bug{name='test2131', description='test', severity=7, condition='test', id=10}])
+05 Jun 2024 19:11:16,705 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:11:16,705 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c83567e)
+05 Jun 2024 19:11:16,706 TRACE src.bts.repository.BugDBRepository 57 findAll - Exit with([Bug{name='first_bug', description='a very nasty bug...', severity=100, condition='unresolved', id=1}, Bug{name='test', description='test', severity=1, condition='resolved', id=2}, Bug{name='test2', description='test2', severity=2, condition='resolved', id=5}, Bug{name='test', description='test', severity=100, condition='test', id=9}, Bug{name='test2131', description='test', severity=7, condition='test', id=10}])
+05 Jun 2024 19:11:25,006 TRACE src.bts.repository.BugDBRepository 106 update - Enter updating bug Bug{name='test', description='test', severity=100, condition='resolved', id=9}
+05 Jun 2024 19:11:25,007 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:11:25,007 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c83567e)
+05 Jun 2024 19:11:25,017 TRACE src.bts.repository.BugDBRepository 116 update - Updated 1 instances
+05 Jun 2024 19:11:25,017 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:11:25,017 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c83567e)
+05 Jun 2024 19:11:25,018 TRACE src.bts.repository.BugDBRepository 57 findAll - Exit with([Bug{name='first_bug', description='a very nasty bug...', severity=100, condition='unresolved', id=1}, Bug{name='test', description='test', severity=1, condition='resolved', id=2}, Bug{name='test2', description='test2', severity=2, condition='resolved', id=5}, Bug{name='test', description='test', severity=100, condition='resolved', id=9}, Bug{name='test2131', description='test', severity=7, condition='test', id=10}])
+05 Jun 2024 19:11:25,018 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:11:25,018 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c83567e)
+05 Jun 2024 19:11:25,019 TRACE src.bts.repository.BugDBRepository 57 findAll - Exit with([Bug{name='first_bug', description='a very nasty bug...', severity=100, condition='unresolved', id=1}, Bug{name='test', description='test', severity=1, condition='resolved', id=2}, Bug{name='test2', description='test2', severity=2, condition='resolved', id=5}, Bug{name='test', description='test', severity=100, condition='resolved', id=9}, Bug{name='test2131', description='test', severity=7, condition='test', id=10}])
+05 Jun 2024 19:11:35,123 TRACE src.bts.repository.BugDBRepository 82 delete - Enter deleting bug with id 10
+05 Jun 2024 19:11:35,123 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:11:35,123 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c83567e)
+05 Jun 2024 19:11:35,132 TRACE src.bts.repository.BugDBRepository 91 delete - Deleted 1 instances
+05 Jun 2024 19:11:35,132 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:11:35,132 TRACE src.bts.repository.config.JdbcUtils 23 getNewConnection - Enter
+05 Jun 2024 19:11:35,133 INFO  src.bts.repository.config.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:/C:/Users/Sebi/IdeaProjects/BTS/bts.db
+05 Jun 2024 19:11:35,133 INFO  src.bts.repository.config.JdbcUtils 29 getNewConnection - user: null
+05 Jun 2024 19:11:35,133 INFO  src.bts.repository.config.JdbcUtils 30 getNewConnection - pass: null
+05 Jun 2024 19:11:35,134 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4c2131b6)
+05 Jun 2024 19:11:35,135 TRACE src.bts.repository.BugDBRepository 57 findAll - Exit with([Bug{name='first_bug', description='a very nasty bug...', severity=100, condition='unresolved', id=1}, Bug{name='test', description='test', severity=1, condition='resolved', id=2}, Bug{name='test2', description='test2', severity=2, condition='resolved', id=5}, Bug{name='test', description='test', severity=100, condition='resolved', id=9}])
+05 Jun 2024 19:11:35,136 TRACE src.bts.repository.config.JdbcUtils 46 getConnection - Enter
+05 Jun 2024 19:11:35,136 TRACE src.bts.repository.config.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4c2131b6)
+05 Jun 2024 19:11:35,136 TRACE src.bts.repository.BugDBRepository 57 findAll - Exit with([Bug{name='first_bug', description='a very nasty bug...', severity=100, condition='unresolved', id=1}, Bug{name='test', description='test', severity=1, condition='resolved', id=2}, Bug{name='test2', description='test2', severity=2, condition='resolved', id=5}, Bug{name='test', description='test', severity=100, condition='resolved', id=9}])

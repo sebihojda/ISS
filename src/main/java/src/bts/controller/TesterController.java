@@ -78,6 +78,8 @@ public class TesterController implements Observer<BTSEvent> {
             String description = descriptionField.getText();
             Integer severity = Integer.parseInt(severityField.getText());
             String condition = conditionField.getText();
+            if(severity < 0)
+                throw new IllegalArgumentException("Invalid Severity!");
             bugService.add(name, description, severity, condition);
             BTS_Action.showMessage(null, Alert.AlertType.INFORMATION, "Save Status", "Save: Success");
         }

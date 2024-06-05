@@ -1,6 +1,6 @@
 package src.bts.service;
 
-import src.bts.domain.Bug;;
+import src.bts.domain.Bug;
 import src.bts.observer.Observable;
 import src.bts.observer.Observer;
 import src.bts.repository.BugDBRepository;
